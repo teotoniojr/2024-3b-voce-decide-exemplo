@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Playwrite+NL:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+:root {
+    --verde-escuro: #1f2421ff;
+    --verde-cinza: #216869ff;
+    --verde-floresta: #49a078ff;
+    --verde-claro: #9cc5a1ff;
+    --platina: #dce1deff;
+    --fonte-titulo: "Playwrite NL", cursive;
+    --fonte-texto: "Playwrite FR Moderne", cursive;
+}
+
+body{
+    background-color: var(--verde-escuro);
+    color: var(--platina);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--verde-cinza);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    color: var(--verde-claro);
+    font-family: var(--fonte-titulo);
+}
+
+button{
+    background-color: var(--verde-floresta);
+    color: var(--verde-escuro);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover{
+    background-color: var(--verde-claro);
+    
+}
